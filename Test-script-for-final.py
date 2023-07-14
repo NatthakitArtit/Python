@@ -19,3 +19,5 @@ import matplotlib.pyplot as plt
 plt.plot(data_path,data_energy)
 plt.xlabel('ReactionPath')
 plt.ylabel('Energy/Eh')
+
+plt.savefig('plot energy profile.pdf')
